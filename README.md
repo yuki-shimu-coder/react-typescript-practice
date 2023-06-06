@@ -27,6 +27,6 @@ docker compose run --rm frontend sh -c 'npx create-react-app frontend --template
 docker compose up
 ```
 
-コンテナを起動したら、下記コマンドを実行してアプリの依存関係をインストールしてください
+コンテナを起動したら、reactが起動するまで少しお待ち下さい。
 
 http://localhost:3000 にアクセスし、reactアプリが起動していることを確認してください。※起動には時間がかかります。
